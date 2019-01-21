@@ -1,4 +1,4 @@
-baseURL = "http://sharno.github.io/"
+baseURL = "https://sharno.github.io/"
 languageCode = "en-us"
 title = "sharno"
 theme = "hugo-classic"
