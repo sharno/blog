@@ -1,3 +1,34 @@
 baseURL = "http://sharno.github.io/"
 languageCode = "en-us"
-title = "My view of the world"
+title = "sharno"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    about = "/about/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = ""
+    footer = "Mohamed Elsharnouby | [Github](https://github.com/sharno) | [Twitter](https://twitter.com/sharno3)"
+    custom_css = ["css/theme-override.css"]
