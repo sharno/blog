@@ -6,7 +6,7 @@ title: Home
 
 # sharno
 
-### For the love of programming languages and pixel art
+### For the love of programming, pixel art and other beautiful things in life
 
 مرحبا
 
@@ -16,10 +16,6 @@ let main argv = printf "Hello World"
 ```
 
 For the love of functional programming languages
-
-For the love of very expressive languages, like F#
-
-For the love of languages that prevents me from doing stupid things, like Rust
 
 <hr/>
 
